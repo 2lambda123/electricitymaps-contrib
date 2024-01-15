@@ -91,8 +91,8 @@ You can also visit our **[data portal](https://www.electricitymaps.com/data-port
 
 ## Error Logs
 
-Add the error logs from the failed GitHub Actions run here.
+Add the error logs from the GitHub Actions run here.
 
 ## How to Reproduce
 
-Provide instructions to the user on how to reproduce the error or any additional information that could help in troubleshooting the issue.
+Provide instructions on how to fix the reported errors or warnings.
