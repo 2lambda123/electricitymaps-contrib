@@ -88,3 +88,11 @@ The carbon intensity of each type of power plant takes into account emissions ar
 **How can I get access to historical data or the live API?**
 All this and more can be found **[here](https://electricitymaps.com/)**.
 You can also visit our **[data portal](https://www.electricitymaps.com/data-portal)** to download historical datasets.
+
+## Error Logs
+
+Add the error logs from the GitHub Actions run here.
+
+## How to Reproduce
+
+Provide instructions on how to fix the reported errors or warnings.
