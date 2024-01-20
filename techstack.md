@@ -38,8 +38,7 @@
 - [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
 - [Jotai](https://jotai.org/) – State Management Library
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
-
-Full tech stack [here](/techstack.md)
+- [Mapbox](https://www.mapbox.com/) – Mapping APIs
 
 &lt;--- Readme.md Snippet without images End ---&gt;
 
