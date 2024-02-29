@@ -2,7 +2,7 @@ repo_name: 2lambda123/electricitymaps-contrib
 report_id: 4d830e710232c7416991f15954c8cece
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T06:54:38+00:00'
+timestamp: '2024-02-29T19:17:32+00:00'
 requested_by: 2lambda123
 provider: github
 branch: master
@@ -63,7 +63,7 @@ tools:
   detection_source_url: https://github.com/2lambda123/electricitymaps-contrib
   detection_source: Repo Metadata
 - name: Swift
-  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
   website_url: https://developer.apple.com/swift/
   license: Apache-2.0
   open_source: true
@@ -317,7 +317,7 @@ tools:
   last_updated_by: Mads Nedergaard
   last_updated_on: 2023-01-30 13:10:59.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.8.8
   license: MIT
@@ -355,7 +355,7 @@ tools:
   last_updated_by: Mads Nedergaard
   last_updated_on: 2023-08-07 14:53:10.000000000 Z
 - name: Sentry
-  description: 'See performance issues, fix errors faster, and optimize code health. '
+  description: See performance issues, fix errors faster, and optimize code health.
   website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
   open_source: true
   hosted_saas: true
@@ -1295,6 +1295,14 @@ tools:
   detection_source: web/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-12-06 19:19:29.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
 - name: whatwg-fetch
   description: A window.fetch polyfill
   package_url: https://www.npmjs.com/whatwg-fetch
@@ -1330,6 +1338,12 @@ tools:
     detected_date: Oct 4
     severity: high
     first_patched: 10.0.1
+  - name: Arbitrary Code Execution in Pillow
+    cve_id: CVE-2023-50447
+    cve_url: https://github.com/advisories/GHSA-3f63-hfp8-52jq
+    detected_date: Jan 23
+    severity: high
+    first_patched: 10.2.0
 - name: PyYAML
   description: YAML parser and emitter for Python
   package_url: https://pypi.org/project/PyYAML
